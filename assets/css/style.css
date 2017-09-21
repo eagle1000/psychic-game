@@ -1,0 +1,41 @@
+body{
+	background: #8FBC8F;
+}
+
+.headerPanel {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	border:thick solid #2F4F4F;
+
+}
+
+#prompt {
+	font-family: 'Rock Salt', cursive;
+	font-size: 20px;
+	font-weight:bold;
+	color:#2F4F4F;
+	margin:0 auto;
+	padding: 10px;
+}
+
+.bodyPanel {
+	margin-top: 10%;
+	border:thick solid #2F4F4F;
+
+}
+.bodyText {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	padding-left:25px;
+}
+
+#winsElem {
+	color:blue;
+	font-size: 32px;
+}
+
+#lossesElem {
+	color:red;
+	font-size: 32px;
+}
