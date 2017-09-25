@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brett</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<!--Stylsheet.CSS Link-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- JQuery Script -->
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Javascript Link -->
+	<script type="text/javascript" src="javascript/game.js"></script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class= col-12>
+				<h1>Crystal Collector</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<h3 id="intro">Hidden deep within the jungle are magical crystals, each with a hidden value. Win by adding the gemstones together to match given value.</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class=col-12>
+				<p id="cpuNum"></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="stats">Wins:<span id="winsElem"></span></p>
+				<p id="winMessageElem"></p>
+				<audio id="wand" src="images/Magic_Wand.mp3"></audio>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="stats">Losses:<span id="lossElem"></span></p>
+				<p id="lossMessageElem"></p>
+				<audio id="laugh" src="images/Evil_Laugh.mp3"></audio>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<p class="stats">Score:<span id="scoreElem"></span></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+		<input class="gems" type="image" value="crystal1" id="button1" src="images/g4134.png">
+		<input class="gems" type="image" value="crystal2" id="button2" src="images/g4166.png">
+		<input class="gems" type="image" value="crystal3" id="button3" src="images/g42.png">
+		<input class="gems" type="image" value="crystal4" id="button4" src="images/g4474.png">
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+body{
+	background: url("../images/cave.png");
+	background-size: 100%;
+	
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 48px;
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 24px;	
+}
+
+#cpuNum{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 48px;
+
+}
+
+.stats{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 28px;
+	position:relative;
+	left: 10%
+}
+
+#winsElem, #lossElem, #scoreElem{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 40px;
+	margin-left: 5%;
+}
+
+#winMessageElem, #lossMessageElem{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 48px;
+}
+
+.gems{
+	
+	margin-top:3%;
+	margin-left: 5%;
+	margin-right:5%;
+	height:100px;
+	width:100px;
+	position:relative;
+	left:10%;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width: 990px) {
+
+	body{background-size: 1000px 1300px;
+	}
+
+	h1{
+		margin-top: 10%;
+	}
+
+	.gems{
+		left:5%;
+	}
+
+	.stats{
+		left:5%;
+	}
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	body{
+		background-size: 800px 1050px;
+
+	}
+
+	h1{
+		margin-top: 20%;
+		font-size: 40px;
+	}
+
+	#cpuNum{
+		font-size: 40px;
+	}
+
+	.stats{
+		font-size: 24px;
+	}
+	
+	#winsElem, #lossElem, #scoreElem{
+		font-size: 36px;
+	}
+
+	.gems{
+
+		margin-top:7%;
+		margin-left: 2%;
+		margin-right:2%;
+		height:90px;
+		width:90px;
+		position:relative;
+		left:12%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+
+	.gems{
+
+		margin-top:5%;
+		margin-left: 2%;
+		margin-right:2%;
+		height:80px;
+		width:80px;
+		position:relative;
+		left:12%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	h1{
+		font-size: 36px;
+		margin-top: 25%;
+	}
+
+	#cpuNum{
+		font-size: 32px;
+	}
+
+	.stats{
+		font-size: 20px;
+	}
+
+	#winsElem, #lossElem, #scoreElem{
+		font-size: 28px;
+	}
+
+	.gems{
+
+		margin-top:5%;
+		margin-left: 2%;
+		margin-right:2%;
+		height:60px;
+		width:60px;
+		position:relative;
+		left:5%;
+	}
+}
